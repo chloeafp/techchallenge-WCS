@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>The Kingdom of Colchis | Lottery</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS stylesheets-->
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- Nav Bar-->
+
+    <nav class="nav-bar">
+      <img src="images/logo.png" alt="logo" class="logo" />
+
+      <ul>
+        <li><a href="/index.html">About</a></li>
+        <li><a href="/royal-family.html">Royal Family</a></li>
+        <li><a href="/lottery.html">Lottery</a></li>
+        <li><a href="/contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- Lottery Rules -->
+
+    <section id="lottery">
+      <h2 class="section-heading">
+        Play our world famous lottery!
+      </h2>
+      <p>
+        As you may already know, every year the Kingdome of Colchis organises a
+        Grand Lottery. <br />
+        The winning prize reaches up to <span>1 000 000 Greek drachma</span>!
+        <br /><br />
+        In order to participate you will need to generate a unique ticket number
+        and come back to our website on the Draw Date. <br />
+        Please note that you can only generate one ticket number per person.
+        <br /><br />
+        The name of the winner and the winning ticket number will be displayed
+        <a href="#lottery-winner">here</a>. <br />
+        But hurry up! There are only 1000 tickets per draw. <br /><br />
+
+        If you happen to be the winner, please send us a message
+        <a href="/contact.html">here</a> and, we will come back to you within
+        24h.
+      </p>
+
+      <p>
+        The next Draw Date is:
+        <span class="draw-date">February 27th, 2023</span>. Save the date!
+      </p>
+
+      <p>
+        The <a href="/royal-family.html">Royal Family</a> wishes you good luck!
+      </p>
+    </section>
+
+    <!-- Generate Ticket number -->
+
+    <section id="lottery-number">
+      <h3 class="section-heading">Generate your personal ticket number</h3>
+      <p id="number"></p>
+      <button class="btn" id="generate">Get your ticket number</button>
+    </section>
+
+    <!-- List of the Lottery winner / table -->
+
+    <section id="lottery-winner">
+      <h4 class="section-heading">The Grand Lottery's Winners</h4>
+      <table id="lottery-table">
+        <tr>
+          <th>Draw date</th>
+          <th>Winner</th>
+          <th>Ticket number</th>
+        </tr>
+        <tr>
+          <td>February 27th, 2023</td>
+          <td>?</td>
+          <td>?</td>
+        </tr>
+        <tr>
+          <td>February 14th, 2022</td>
+          <td>Agnetha</td>
+          <td>#786</td>
+        </tr>
+        <tr>
+          <td>January 23rd, 2021</td>
+          <td>Diodorus</td>
+          <td>#349</td>
+        </tr>
+        <tr>
+          <td>March 28th, 2020</td>
+          <td>Eugenios</td>
+          <td>#871</td>
+        </tr>
+        <tr>
+          <td>February 12nd, 2019</td>
+          <td>Khristos</td>
+          <td>#012</td>
+        </tr>
+        <tr>
+          <td>January 4th, 2018</td>
+          <td>Psyche</td>
+          <td>#476</td>
+        </tr>
+        <tr>
+          <td>January 16th, 2017</td>
+          <td>Corinna</td>
+          <td>#187</td>
+        </tr>
+        <tr>
+          <td>March 2nd, 2016</td>
+          <td>Thales</td>
+          <td>#560</td>
+        </tr>
+        <tr>
+          <td>February 24th, 2015</td>
+          <td>Megaira</td>
+          <td>#813</td>
+        </tr>
+        <tr>
+          <td>January 30th, 2014</td>
+          <td>Callisto</td>
+          <td>#003</td>
+        </tr>
+      </table>
+    </section>
+
+    <!--Javascript file-->
+    <script src="lottery.js"></script>
+  </body>
+</html>

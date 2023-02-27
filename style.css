@@ -1,0 +1,225 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  margin: 2rem 0 1rem 1rem;
+}
+
+p a {
+  color: goldenrod;
+  font-weight: 900;
+}
+
+span {
+  color: goldenrod;
+  font-weight: 500;
+}
+
+ul {
+  background: goldenrod;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  position: relative;
+  top: 3rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: black;
+  transition: 0.8s;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.3rem;
+  font-weight: 900;
+  text-shadow: 1px 1px #333;
+  line-height: 1.5;
+  margin: 0 0 0 1rem;
+  color: #ffffff;
+}
+
+.section-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 700;
+  margin: 2rem 0 0 1rem;
+}
+
+.small-heading {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+  margin: 2rem 0 0 1rem;
+}
+
+/* Sections */
+
+#the-kingdom {
+  height: 500px;
+  background-image: url("images/kingdom-of-colchis.png");
+  background-size: cover;
+}
+
+#welcome,
+#royal-family,
+#contact,
+#biography-family {
+  margin-bottom: 5rem;
+}
+
+#lottery-number {
+  text-align: center;
+}
+
+#lottery-winner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 5rem 0 5rem 0;
+}
+
+#lottery-table {
+  margin: 3rem 0 5rem 0;
+}
+
+/* Nav Bar */
+
+.nav-bar {
+  height: 150px;
+  padding: 0 0 1rem;
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 200;
+}
+
+.logo {
+  float: left;
+  height: 150px;
+}
+
+/* Contact Button Home Page */
+
+#contact-btn {
+  margin-left: 1rem;
+  background: goldenrod;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Royal Family Img */
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 2rem 0 0 1rem;
+}
+
+.family-img {
+  height: 20rem;
+  transition: transform 0.3s;
+}
+.family-img:hover {
+  transform: scale(1.1);
+}
+
+#royal-family .flex-container div {
+  flex: 1 1 0;
+}
+
+/* Lottery Table */
+
+#lottery-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+#lottery-table td,
+#lottery-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#lottery-table tr:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+#lottery-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: goldenrod;
+  color: white;
+}
+
+/* Generate Lottery Number */
+
+.btn {
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  margin: 1rem;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#number {
+  font-size: 28px;
+  padding: 2rem;
+  color: black;
+}
+
+/* Form */
+
+form {
+  margin: 0 auto;
+  width: 95%;
+  padding-top: 20px;
+}
+
+label {
+  line-height: 2;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: lightslategray;
+}
+
+input[type="submit"] {
+  background: goldenrod;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-family: "Montserrat", sans-serif;
+}
